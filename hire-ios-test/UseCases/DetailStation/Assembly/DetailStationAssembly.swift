@@ -23,17 +23,6 @@ class DetailStationModuleAssembly: ViperModuleAssembly {
             let presenter =  DetailStationPresenter()
             presenter.view = c
             return presenter
-        }.initCompleted { (r, p) in
-            let p = p as! DetailStationPresenter
-            
-            p.router = r.resolve(DetailStationRouterInput.self, argument: p.view as! TransitionHandler)
-        }
-        
-        // Router
-        container.register(DetailStationRouterInput.self) { (r, v: TransitionHandler) in
-            let router = DetailStationRouter()
-            router.transitionHandler = v
-            return router
         }
     }
 }

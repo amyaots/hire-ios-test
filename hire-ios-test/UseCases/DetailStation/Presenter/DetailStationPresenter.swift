@@ -8,7 +8,6 @@
 
 class DetailStationPresenter {
     weak var view: DetailStationViewInput!
-    var router: DetailStationRouterInput!
     var station: Station!
 }
 

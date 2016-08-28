@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2A4DBAFC5FF8C80210038275 /* StationsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B1C5DB440E92A9B76C3E7A /* StationsRouter.swift */; };
-		2AD1E874DF6AD34C5B004741 /* DetailStationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA5A06251677FCED49D5B62 /* DetailStationRouter.swift */; };
 		3CCAE1BC14640194BAFE7C68 /* Pods_hire_ios_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35C81A76C0408D679E6D1C5 /* Pods_hire_ios_test.framework */; };
 		3D9FDFF702157E688CC8A363 /* ScheduleInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41A13D5C4595C5CDF8F6469 /* ScheduleInteractorOutput.swift */; };
 		4581F3911CC37B59D24D0CC9 /* StationsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B5BF3E44B67CB64C232AB4 /* StationsInteractorInput.swift */; };
@@ -58,7 +57,6 @@
 		C250F69FC764B509DB4FB07E /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C4F6861455A2BEBD905A9D /* ScheduleViewController.swift */; };
 		C4BDC3782124FF984B267231 /* StationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBCEFCBAC9745FE7A6E563 /* StationsInteractor.swift */; };
 		CE5F0BEE6082FD8CEBF50B76 /* ScheduleInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F94BE40D3C1342B68B33DC7 /* ScheduleInteractorInput.swift */; };
-		D2B29E4C53D6080A6B116B6B /* DetailStationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE77EF929C5DBDD4CDFE2EB /* DetailStationRouterInput.swift */; };
 		D37E8FC3AF22D035A543E224 /* Pods_hire_ios_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D302D4C9BF599868FA58EBC /* Pods_hire_ios_testTests.framework */; };
 		D69C28127302A079D37888BB /* ScheduleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF126AD233F588926DB51BD6 /* ScheduleRouter.swift */; };
 		DC1133C1DA7D3913480F545F /* DetailStationModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E0AD75834F567A65A5BA1 /* DetailStationModuleInput.swift */; };
@@ -80,7 +78,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AE77EF929C5DBDD4CDFE2EB /* DetailStationRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailStationRouterInput.swift; sourceTree = "<group>"; };
 		1FDBCEFCBAC9745FE7A6E563 /* StationsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StationsInteractor.swift; sourceTree = "<group>"; };
 		216832974D76723DE0CD00D7 /* Pods-hire-ios-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hire-ios-testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hire-ios-testTests/Pods-hire-ios-testTests.release.xcconfig"; sourceTree = "<group>"; };
 		30AF946A11A69199A332B232 /* ScheduleAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScheduleAssembly.swift; sourceTree = "<group>"; };
@@ -136,7 +133,6 @@
 		BCE3A07F1D71E1EC004DAB2A /* hire-ios-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hire-ios-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE3A0831D71E1EC004DAB2A /* hire_ios_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hire_ios_testTests.swift; sourceTree = "<group>"; };
 		BCE3A0851D71E1EC004DAB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFA5A06251677FCED49D5B62 /* DetailStationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailStationRouter.swift; sourceTree = "<group>"; };
 		C32BA1899431311AFC5C6E50 /* StationsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
 		C35C81A76C0408D679E6D1C5 /* Pods_hire_ios_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hire_ios_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64A8678674EBED2BE504ACE /* StationsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StationsViewOutput.swift; sourceTree = "<group>"; };
@@ -300,15 +296,6 @@
 			path = Assembly;
 			sourceTree = "<group>";
 		};
-		668AC381C843AC689EB46D90 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				0AE77EF929C5DBDD4CDFE2EB /* DetailStationRouterInput.swift */,
-				BFA5A06251677FCED49D5B62 /* DetailStationRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		6B09CD639888ADDCA99A2023 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,7 +347,6 @@
 			children = (
 				2A8610C1322051FB59F65CDA /* View */,
 				4D1B07AF7020A133314BAFF2 /* Presenter */,
-				668AC381C843AC689EB46D90 /* Router */,
 				03127ACCD49CFAB4A44C7682 /* Assembly */,
 			);
 			path = DetailStation;
@@ -802,8 +788,6 @@
 				A542718498C4C1AA0CAE30BF /* DetailStationViewController.swift in Sources */,
 				DC1133C1DA7D3913480F545F /* DetailStationModuleInput.swift in Sources */,
 				4CC083BF26F3D8E2D63D8953 /* DetailStationPresenter.swift in Sources */,
-				D2B29E4C53D6080A6B116B6B /* DetailStationRouterInput.swift in Sources */,
-				2AD1E874DF6AD34C5B004741 /* DetailStationRouter.swift in Sources */,
 				6BFAD0849949A84FA7DA42C3 /* DetailStationAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
