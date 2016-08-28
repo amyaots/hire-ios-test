@@ -1,0 +1,34 @@
+### Headers settings
+company: myaots
+
+### Xcode project settings
+project_name: hire-ios-test
+xcodeproj_path: hire-ios-test.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: hire-ios-test
+
+# The file path for new modules
+project_file_path: hire-ios-test/UseCases
+
+# The Xcode group path to new modules
+project_group_path: hire-ios-test/UseCases
+
+### Tests generation settings section
+# The tests target name
+test_target: hire-ios-testTests
+
+# The file path for new tests
+test_file_path: hire-ios-testTests/UseCasesTest
+
+# The Xcode group path to new tests
+test_group_path: hire-ios-testTests/UseCasesTest
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: swifty_viper}
+- {name: sml_viper}

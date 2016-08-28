@@ -2,7 +2,7 @@
 //  hire_ios_testTests.swift
 //  hire-ios-testTests
 //
-//  Created by Александр Мяоц on 27.08.16.
+//  Created by Aleksandr Myaots on 27.08.16.
 //  Copyright © 2016 amyaots. All rights reserved.
 //
 
