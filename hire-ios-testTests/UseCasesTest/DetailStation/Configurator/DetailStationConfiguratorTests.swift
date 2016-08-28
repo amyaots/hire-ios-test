@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import hire_ios_test
 
 class DetailStationModuleConfiguratorTests: XCTestCase {
 
@@ -24,10 +25,8 @@ class DetailStationModuleConfiguratorTests: XCTestCase {
 
         //given
         let viewController = DetailStationViewControllerMock()
-        let configurator = DetailStationModuleConfigurator()
 
         //when
-        configurator.configureModuleForViewInput(viewController)
 
         //then
         XCTAssertNotNil(viewController.output, "DetailStationViewController is nil after configuration")
@@ -35,11 +34,6 @@ class DetailStationModuleConfiguratorTests: XCTestCase {
 
         let presenter: DetailStationPresenter = viewController.output as! DetailStationPresenter
         XCTAssertNotNil(presenter.view, "view in DetailStationPresenter is nil after configuration")
-        XCTAssertNotNil(presenter.router, "router in DetailStationPresenter is nil after configuration")
-        XCTAssertTrue(presenter.router is DetailStationRouter, "router is not DetailStationRouter")
-
-        let interactor: DetailStationInteractor = presenter.interactor as! DetailStationInteractor
-        XCTAssertNotNil(interactor.output, "output in DetailStationInteractor is nil after configuration")
     }
 
     class DetailStationViewControllerMock: DetailStationViewController {

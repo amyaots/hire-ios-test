@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import hire_ios_test
 
 class DetailStationPresenterTest: XCTestCase {
 
@@ -20,18 +21,18 @@ class DetailStationPresenterTest: XCTestCase {
         super.tearDown()
     }
 
-    class MockInteractor: DetailStationInteractorInput {
-
-    }
-
-    class MockRouter: DetailStationRouterInput {
-
-    }
-
     class MockViewController: DetailStationViewInput {
 
         func setupInitialState() {
 
+        }
+        
+        func showError(error: String) {
+            
+        }
+        
+        func setLabels(station: Station) {
+            
         }
     }
 }

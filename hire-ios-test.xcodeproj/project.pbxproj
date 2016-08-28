@@ -19,7 +19,6 @@
 		7B7A1A7B1FB61C17C42B82D1 /* DetailStationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8124D7C3D40732956B13E752 /* DetailStationViewOutput.swift */; };
 		806E76CB4ECAFD497D82863E /* ScheduleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5649AD7EC85F55A10E437996 /* ScheduleInteractor.swift */; };
 		861286C41B16D4B489A9F3FC /* ScheduleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF946A11A69199A332B232 /* ScheduleAssembly.swift */; };
-		86889317220693828AC88ED5 /* DetailStationRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B244EDDD92FC711FE1273A /* DetailStationRouterTests.swift */; };
 		8ADC89E572FE660470F483B9 /* DetailStationViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46888426FF31F45AEF3F92 /* DetailStationViewTests.swift */; };
 		937F1708B16717DF46774E62 /* DetailStationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53252DE5B64797EF48B7F0FC /* DetailStationViewInput.swift */; };
 		9714130865910ACC4448F8D6 /* ScheduleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396446D4FED5ABA095FDD71 /* ScheduleViewOutput.swift */; };
@@ -62,7 +61,6 @@
 		DC1133C1DA7D3913480F545F /* DetailStationModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E0AD75834F567A65A5BA1 /* DetailStationModuleInput.swift */; };
 		E3D99BA4E52BDD7D3DA7D734 /* ScheduleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD299736B93A4B3B81CA209 /* ScheduleRouterInput.swift */; };
 		E76F2F0F36C6696114554187 /* StationsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0721644DEDEE420574C1DFB /* StationsModuleInput.swift */; };
-		F5AAA7839BACCCA480552543 /* DetailStationInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ADBBEF607B65E4401E3A50 /* DetailStationInteractorTests.swift */; };
 		F6E0BC25C421E49A2D126AD3 /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BA1899431311AFC5C6E50 /* StationsViewController.swift */; };
 		F76A59C49A122B12D7E57ACE /* DetailStationPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6B5A93227907762DF31F0 /* DetailStationPresenterTests.swift */; };
 /* End PBXBuildFile section */
@@ -91,7 +89,6 @@
 		6D302D4C9BF599868FA58EBC /* Pods_hire_ios_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hire_ios_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7349CD218A14337696CAE4A9 /* StationsRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StationsRouterInput.swift; sourceTree = "<group>"; };
 		73C4F6861455A2BEBD905A9D /* ScheduleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
-		75B244EDDD92FC711FE1273A /* DetailStationRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailStationRouterTests.swift; sourceTree = "<group>"; };
 		8124D7C3D40732956B13E752 /* DetailStationViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailStationViewOutput.swift; sourceTree = "<group>"; };
 		81B5BF3E44B67CB64C232AB4 /* StationsInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StationsInteractorInput.swift; sourceTree = "<group>"; };
 		8BE0B097397C6B78B113F6F2 /* DetailStationConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailStationConfiguratorTests.swift; sourceTree = "<group>"; };
@@ -102,7 +99,6 @@
 		9F94BE40D3C1342B68B33DC7 /* ScheduleInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScheduleInteractorInput.swift; sourceTree = "<group>"; };
 		9FA349CF837998EF72C659A5 /* StationsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StationsPresenter.swift; sourceTree = "<group>"; };
 		9FE1BB9B5DA885491949DA1A /* DetailStationAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailStationAssembly.swift; sourceTree = "<group>"; };
-		A6ADBBEF607B65E4401E3A50 /* DetailStationInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailStationInteractorTests.swift; sourceTree = "<group>"; };
 		B21E0AD75834F567A65A5BA1 /* DetailStationModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailStationModuleInput.swift; sourceTree = "<group>"; };
 		BC3DE2621D7327EE007580DE /* StationsDisplayManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsDisplayManager.swift; sourceTree = "<group>"; };
 		BC3DE2641D736941007580DE /* StationsModuleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsModuleOutput.swift; sourceTree = "<group>"; };
@@ -237,14 +233,6 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		3E3151B2B0E7543340F087E6 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				75B244EDDD92FC711FE1273A /* DetailStationRouterTests.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		3FD9100C058DC50DF095EA7A /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,9 +269,7 @@
 			children = (
 				97298F1F0E5C1914FF8F2FD0 /* Configurator */,
 				A82519155C053ECB6A0966DB /* View */,
-				9F87D44B093B048D61C11B55 /* Interactor */,
 				32193EBEB4CCFEE65409FFAD /* Presenter */,
-				3E3151B2B0E7543340F087E6 /* Router */,
 			);
 			path = DetailStation;
 			sourceTree = "<group>";
@@ -332,14 +318,6 @@
 				8BE0B097397C6B78B113F6F2 /* DetailStationConfiguratorTests.swift */,
 			);
 			path = Configurator;
-			sourceTree = "<group>";
-		};
-		9F87D44B093B048D61C11B55 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				A6ADBBEF607B65E4401E3A50 /* DetailStationInteractorTests.swift */,
-			);
-			path = Interactor;
 			sourceTree = "<group>";
 		};
 		A0A6B92C65D9D9A3FBDB9062 /* DetailStation */ = {
@@ -799,9 +777,7 @@
 				BCE3A0841D71E1EC004DAB2A /* hire_ios_testTests.swift in Sources */,
 				9EFB7234774105F07F8F800C /* DetailStationConfiguratorTests.swift in Sources */,
 				8ADC89E572FE660470F483B9 /* DetailStationViewTests.swift in Sources */,
-				F5AAA7839BACCCA480552543 /* DetailStationInteractorTests.swift in Sources */,
 				F76A59C49A122B12D7E57ACE /* DetailStationPresenterTests.swift in Sources */,
-				86889317220693828AC88ED5 /* DetailStationRouterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
