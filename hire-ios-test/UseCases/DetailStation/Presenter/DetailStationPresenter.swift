@@ -8,7 +8,6 @@
 
 class DetailStationPresenter {
     weak var view: DetailStationViewInput!
-    var interactor: DetailStationInteractorInput!
     var router: DetailStationRouterInput!
     var station: Station!
 }
@@ -25,9 +24,4 @@ extension DetailStationPresenter: DetailStationViewOutput {
     func viewIsReady() {
         view.setLabels(self.station)
     }
-}
-
-// MARK: - Interactor Output
-extension DetailStationPresenter: DetailStationInteractorOutput {
-    
 }

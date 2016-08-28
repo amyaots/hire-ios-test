@@ -27,7 +27,6 @@ class StationsModuleAssembly: ViperModuleAssembly {
             let p = p as! StationsPresenter
             
             p.router = r.resolve(StationsRouterInput.self, argument: p.view as! TransitionHandler)
-            p.interactor = r.resolve(StationsInteractorInput.self, argument: p as StationsInteractorOutput)
         }
         
         // Router
@@ -35,13 +34,6 @@ class StationsModuleAssembly: ViperModuleAssembly {
             let router = StationsRouter()
             router.transitionHandler = v
             return router
-        }
-
-        // Interactor
-        container.register(StationsInteractorInput.self) { (r, p: StationsInteractorOutput) in
-            let interactor =  StationsInteractor()
-            interactor.output = p
-            return interactor
         }
     }
 }

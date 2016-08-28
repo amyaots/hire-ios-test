@@ -7,8 +7,6 @@
 //
 
 class StationsInteractor: StationsInteractorInput {
-
-    weak var output: StationsInteractorOutput!
     
     func filterCity(searchText: String, cities: [City]) -> [City] {
         var filteredCities = [City]()

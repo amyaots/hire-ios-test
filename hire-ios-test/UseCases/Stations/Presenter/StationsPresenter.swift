@@ -46,12 +46,5 @@ extension StationsPresenter: StationsViewOutput {
     func search(searchText: String) {
         let filteredData = searchText.isEmpty ? self.cities : interactor.filterCity(searchText, cities: self.cities)
         view?.displayCities(filteredData)
-    }
-    
-    
-}
-
-// MARK: - Interactor Output
-extension StationsPresenter: StationsInteractorOutput {
-    
+    }   
 }
