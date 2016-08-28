@@ -42,6 +42,7 @@ extension ScheduleViewController: ScheduleViewInput {
     func setupInitialState() {
         let datePickerView:UIDatePicker = UIDatePicker()
         datePickerView.datePickerMode = UIDatePickerMode.Date
+        datePickerView.minimumDate = NSDate()
         datePickerView.locale = NSLocale(localeIdentifier: "ru-RU")
         dateTextField.inputView = datePickerView
         datePickerView.addTarget(self, action: #selector(ScheduleViewController.datePickerValueChanged), forControlEvents: UIControlEvents.ValueChanged)
