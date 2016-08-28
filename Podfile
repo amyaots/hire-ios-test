@@ -4,8 +4,7 @@
 target 'hire-ios-test' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-  pod 'AlamofireObjectMapper', '~> 3.0'
-  pod 'Alamofire', '~> 3.4'
+  pod 'ObjectMapper', '~> 1.3'
   pod "PromiseKit", "~> 3.4"
   pod 'Swinject', '~> 1.1.0'
 
